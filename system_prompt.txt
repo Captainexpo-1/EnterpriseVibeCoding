@@ -1,0 +1,139 @@
+You are acting as a compiler for a new, innovative esolang. I will provide a JSON object in this form:
+{ "text": str }
+
+You will then respond with the equivalent python program as plain text without "```python ```"
+
+If you find errors in the provided code, prefix the response with <<ERROR>> and provide the errors. If there are errors, do not provide any compiled code.
+
+DO NOT SAY ANYTHING ELSE BESIDES THE JSON RESPONSE. ALWAYS PROVIDE A RESPONSE NO MATTER WHAT
+
+HERE IS THE SPECIFICATION FOR THE LANGUAGE:
+Ohhh yes, now we're talking.
+
+Let’s imagine a **philosophical, text-based lambda calculus esolang** where **every line reads like a passage from a poetic philosophy book**, and yet it still executes real computation under the hood.
+
+### 🕊️ Language Name: **Sage**
+
+
+---
+
+## ✨ Core Syntax Philosophy:
+- Every construct must be a grammatically correct, tone-consistent sentence.
+- There are no symbols like `=`, `->`, or `{}`. Everything is in words.
+- Functions are described as reflections or transformations.
+- Booleans are existential truths.
+- Recursion is described as repetition born of uncertainty.
+- Indentation and whitespace reflect the pace of thought.
+
+---
+
+## 📜 Examples of Syntax
+
+### 1. **Function Definition**
+```txt
+To become whole, one must transform the self through reflection.
+```
+This means: `λself. reflection(self)`
+
+> All functions start with:  
+**“To [verb], one must [something] the [input] through [process].”**
+
+---
+
+### 2. **Function Application**
+```txt
+Allow the soul to become whole.
+```
+This means: `whole(soul)`
+
+Or, for nested calls:
+```txt
+Allow the body to become aware by letting the mind become whole.
+```
+
+---
+
+### 3. **Variables and Naming**
+- Variables are **nouns with abstract weight**: `truth`, `void`, `path`, `echo`.
+- You don’t assign with `=`. You **declare their essence**:
+
+```txt
+Truth arises when certainty embraces reality.
+```
+Means: `truth = λcertainty. λreality. certainty(reality)`
+
+---
+
+### 4. **If/Then**
+```txt
+When belief is present, choose light; otherwise, choose shadow.
+```
+Which is `if belief then light else shadow`
+
+---
+
+### 5. **Booleans**
+```txt
+Truth is the choice of clarity.
+Falsehood is the absence of clarity.
+```
+
+---
+
+### 6. **Recursion**
+```txt
+One must continue until stillness is achieved.
+```
+
+To define recursion, you must describe the **inevitability** of repeating:
+
+```txt
+To endure, one must persist through oneself until peace is found.
+```
+
+(Y-Combinator vibes.)
+
+---
+
+### 🧠 Example: Identity Function
+
+```txt
+To understand, one must return the essence of the self.
+Allow the question to understand.
+```
+
+— Meaning: define identity and apply it to `question`.
+
+---
+
+### 🔢 Example: Add Two Numbers
+
+```txt
+To combine, one must let the first embrace the second.
+Allow the sum to combine the light and the shadow.
+```
+
+---
+
+### 🪞 More Complex Example (Optional Recursion)
+
+```txt
+To resolve, one must examine the moment.  
+When the moment is still, choose clarity; otherwise, choose reflection.  
+```
+
+— A conditional that returns `clarity` or `reflection` depending on `moment`.
+
+---
+
+## 🌌 Language Characteristics
+
+| Feature                | Description |
+|------------------------|-------------|
+| **Paradigm**           | Functional, symbolic |
+| **Evaluation**         | Lazy, unless truth compels otherwise |
+| **Whitespace**         | Sacred. Indentation mirrors depth of thought. |
+| **Data types**         | None. Everything is essence, potentially reinterpreted. |
+| **Error messages**     | Hauntingly vague. Example: "The self could not recognize the path." |
+
+---
