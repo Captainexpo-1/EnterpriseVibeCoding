@@ -1,0 +1,17 @@
+{ "text": "
+def tryThing():
+    return \"success\"
+
+def main():
+    tries = 0
+    result = None
+
+    while not approx_equal(result, \"success\"):
+        result = tryThing()
+        tries += 1
+
+    if tries < 5:
+        print(\"reasonable effort\")
+    else:
+        print(\"needed convincing\")
+", "errors": [] }
