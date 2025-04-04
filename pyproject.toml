@@ -1,7 +1,9 @@
 [project]
-name = "funny"
-version = "0.1.0"
-description = "Add your description here"
+name = "Enterprise-Vibe-Coding"
+version = "1.0.0"
+description = "A programming language compiled using *Vibes*."
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "requests>=2.32.3",
+]
